@@ -2,7 +2,7 @@ import pandas as pd
 import numpy as np
 import random 
 
-chat_id = 123456 # Ваш chat ID, не меняйте название переменной
+chat_id = 270620880 # Ваш chat ID, не меняйте название переменной
 
 def solution(x_success: int, 
              x_cnt: int, 
