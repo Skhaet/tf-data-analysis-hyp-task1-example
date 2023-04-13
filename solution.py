@@ -1,6 +1,6 @@
 import pandas as pd
 import numpy as np
-
+import random 
 
 chat_id = 123456 # Ваш chat ID, не меняйте название переменной
 
@@ -11,4 +11,4 @@ def solution(x_success: int,
     # Измените код этой функции
     # Это будет вашим решением
     # Не меняйте название функции и её аргументы
-    return True # Ваш ответ, True или False
+    return bool(random.getrandbits(1)) # Ваш ответ, True или False
